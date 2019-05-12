@@ -7,7 +7,7 @@
     "watch": "tsc -w",
     "build": "tsc",
     "dev": "npm run build && nodemon",
-    "start": "node"
+    "start": "node dist/src/server.js"
   },
   "author": "Adithya Sreyaj",
   "license": "ISC",
