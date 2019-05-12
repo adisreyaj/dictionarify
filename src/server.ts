@@ -5,9 +5,9 @@ const appInstance: App = new App();
 const app: express.Application = appInstance.app;
 
 // Setting up the port for the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || "3000";
 
 // Firing up the server
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(parseInt(PORT), "0.0.0.0", () => {
   console.log(`Server is running ❤️ at localhost :${PORT}`);
 });
