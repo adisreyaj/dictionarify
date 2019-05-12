@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "tsc -w",
     "build": "tsc",
-    "dev": "npm run build && nodemon",
+    "prod": "npm run build && npm run start",
     "start": "node dist/src/server.js"
   },
   "author": "Adithya Sreyaj",

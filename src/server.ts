@@ -8,6 +8,6 @@ const app: express.Application = appInstance.app;
 const PORT = process.env.PORT || "3000";
 
 // Firing up the server
-app.listen(parseInt(PORT, 10), "0.0.0.0", () => {
+app.listen(PORT, () => {
   console.log(`Server is running ❤️ at localhost :${PORT}`);
 });
